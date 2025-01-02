@@ -104,8 +104,7 @@ app.post('/store-tweet', async (req, res) => {
   }
 });
 */
-import { client } from "../../../index.js";
-
+import client from "../../../DB/connectionElastic.js";
 export const pros = async (req, res) => {
     try {
         const tweets = await tweetModel.find().lean();

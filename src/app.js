@@ -21,7 +21,7 @@ export const initApp = (app,express)=>{
     
 
     app.use('/',(req,res)=>{
-        res.json({message : 'welcome to HolidayHive project'})
+        res.json({message : 'welcome to tweet project'})
     })
 
     
